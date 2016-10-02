@@ -29,7 +29,7 @@ class DocumentCleaner(object):
             "|legende|ajoutVideo|timestamp|js_replies|EmailOptin"
             "|interstitial-link|visually-hidden|off-screen"
             "|story-image-copyright|media-caption__text|pb-caption"
-            "|newsletter-signup|media__video--thumbnail-wrapper"
+            "|newsletter-signup|media__video--thumbnail-wrapper|inline-content"
         )
         self.regexp_namespace = "http://exslt.org/regular-expressions"
         self.nauthy_ids_re = ("//*[re:test(@id, '%s', 'i')]" %
